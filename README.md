@@ -46,28 +46,28 @@ Core focus areas:
  
 ## Roadmap
  
-### Phase 1 — Prediction Market Research Core `(Weeks 1–6)`
+### Phase 1 — Prediction Market Research Core 
 - [ ] Kalshi + Polymarket data ingestion
 - [ ] External feature pipeline (economic releases, news, weather)
 - [ ] Logistic regression + XGBoost probability models
 - [ ] Brier score and calibration curve evaluation
 - [ ] First live market forecast with tracked accuracy
  
-### Phase 2 — Backtesting Engine + Equities `(Weeks 7–12)`
+### Phase 2 — Backtesting Engine + Equities 
 - [ ] Yahoo Finance + crypto data pipeline
 - [ ] Signal library: momentum, mean-reversion, volume-based
 - [ ] Walk-forward backtester with realistic costs
 - [ ] Signal decay analysis over rolling windows
 - [ ] Paper trading execution scaffold
  
-### Phase 3 — Infrastructure Hardening `(Weeks 13–16)`
+### Phase 3 — Infrastructure Hardening 
 - [ ] MLflow experiment tracking across all runs
 - [ ] Regime detection layer (HMM or rolling volatility)
 - [ ] Prefect pipeline orchestration
 - [ ] Unit + integration test coverage
 - [ ] Clean reproducible repo structure
  
-### Phase 4 — Dashboard + Live Deployment `(Weeks 17–20)`
+### Phase 4 — Dashboard + Live Deployment 
 - [ ] React dashboard with live calibration curves and P&L
 - [ ] Strategy monitor with regime overlay
 - [ ] Public deployment (Vercel + Railway or similar)
